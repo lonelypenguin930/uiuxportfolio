@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "uiuxportfolio",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "uiuxportfolio"
+  }
+}
