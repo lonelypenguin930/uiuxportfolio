@@ -31,7 +31,7 @@
   }
 
   .dt-elements{
-    color:#0E82C3;
+    background-color: yellow;
   }
 
   .body-content{
@@ -123,6 +123,33 @@
     margin-right: auto;
     width: 50%;
     flex-basis: 40%;
+  }
+
+
+  .profile{
+    margin-top: 5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile .profile-image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    flex-basis: 40%;
+  }
+
+  .profile .profile-text{
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .profile-section{
+    text-align: center;
+    margin-left: 2rem;
   }
 
   .introduction .intro-text{
