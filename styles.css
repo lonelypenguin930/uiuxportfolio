@@ -132,6 +132,11 @@
     font-size: 1.5rem;
   }
 
+  .intro-section{
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
 
   .project{
     display:flex;
@@ -355,21 +360,32 @@
   text-align: center;
 }
 
-button{
+.click-button{
+  background-color: white;
+  border: 1px solid #6c757d;
+  color:#6c757d;
+  text-align: center;
+  width: 6rem;
+  height: 4rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.wc-button{
+  background-color: white;
+  border: 1px solid #9B2740;
+  color:#9B2740;
+  text-align: center;
+  width: 6rem;
+  height: 4rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.click-button:hover{
   background-color: #0E82C3;
   color: white;
   border:none;
-  border-radius: 15px;
-  text-align: center;
-  width: 6rem;
-  height: 7 rem;
-  padding: 2 rem;
-}
-
-button:hover{
-  background-color: white;
-  border: 1px solid #0E82C3;
-  color:#0E82C3;
 }
 
 .button{
